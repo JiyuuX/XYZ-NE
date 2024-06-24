@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: red;
+  padding: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.sliderContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.slider {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.colorPickerContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.colorPickerContainer label {
+  margin-right: 10px;
+}
+
+.plotContainer {
+  width: 100%;
+  height: 500px; /* or adjust as per your requirement */
+  margin-top: 20px;
+}
+
